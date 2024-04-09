@@ -1,0 +1,5 @@
+Need to discuss:
+- How interactions with the basket will work. I can continue my work with combining meshes but this will likely impact performance. Regardless of how the mesh is created, shirt models need to be changed.
+- I would like some of the model groupings to be modified so I can split certain meshes so they actually work with regards to navigation.
+- SketchUp loading errors with that one shirt type and the racks.
+- Explain tray modification to the wheelchair.
