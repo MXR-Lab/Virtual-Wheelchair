@@ -9,11 +9,14 @@ public class trayAttach : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         basketRigid = basket.GetComponent<Rigidbody>();
-        basket.transform.parent = gameObject.transform;
         basketRigid.useGravity = false;
         basketRigid.isKinematic = true;
+        basket.transform.parent = gameObject.transform;
+        basket.transform.localRotation = new Quaternion(0, 90, 0, 0);
+        basket.transform.localPosition = new Vector3(0, 0, 0);
+        basket.transform.localScale = new Vector3(1,1,1);
     }
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionExit(Collision collision)
     {
         basket.transform.parent = null;
         basketRigid.useGravity = true;
