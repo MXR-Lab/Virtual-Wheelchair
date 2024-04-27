@@ -5,9 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/Menu.unity
+    guid: 3a4e63128b515674d944cfe43525c427
+  - enabled: 1
+    path: Assets/Scenes/Test Walk.unity
+    guid: 276b172a8d86d304986048ba760e6f95
+  - enabled: 1
+    path: Assets/Scenes/Test Wheelchair.unity
+    guid: eb245ea66ec21ce45b2eec23b7a77d9d
+  - enabled: 1
+    path: Assets/Scenes/Walk Linear.unity
+    guid: 22707009f82f77542b0b5ffa00d8f14c
+  - enabled: 1
+    path: Assets/Scenes/Walk Curvilinear.unity
+    guid: 4d2b89bfbf71ce84cb165884c0ed2bfb
+  - enabled: 1
+    path: Assets/Scenes/Linear.unity
+    guid: b23f24be32b145f46b6e5bded4edcab5
+  - enabled: 1
+    path: Assets/Scenes/Curvelinear.unity
+    guid: e8b4436788e578d4cac5fbd63bcf17f0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7b692711032817b4cb7051c48b77492a, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: d2004374041236f4eab75c90b73d42c7, type: 2}
